@@ -1,19 +1,50 @@
 aid: glowing
-name: glowing
-description: glowing is a company surfaced as a portfolio company of slow-ventures and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+name: Glow
+description: >-
+  Glow (glowing.com) is a women's health and reproductive-health technology company whose consumer
+  mobile apps track periods, ovulation, fertility, pregnancy, and early baby development for a
+  community of more than 25 million members. Its app suite spans Glow (ovulation and fertility),
+  Eve by Glow (period tracking), Glow Nurture (pregnancy), and Glow Baby (infant development), and
+  it layers AI-powered health insights through GlowGPT along with a Glow Premium subscription and a
+  companion Glow Shop for hardware such as basal thermometers, test strips, and a smart breast pump.
+  Surfaced as a portfolio company of Slow Ventures and added to the API Evangelist network, Glow is a
+  consumer app business with no public developer program: no API portal, developer documentation,
+  SDKs, or OpenAPI surface could be located during enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/glowing/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://glowing.com/wp-content/uploads/2023/05/cropped-glow-favicon-300x300.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - slow-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-api-program: none
+x-enrichment-note: Consumer women's-health app; no public API, developer portal, docs, or SDKs found (probed 2026-07-19).
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Health
+- Women's Health
+- Reproductive Health
+- Fertility
+- Pregnancy
+- Period Tracking
+- Consumer Apps
+- Mobile
+- Femtech
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +54,18 @@ maintainers:
 common:
 - type: Website
   url: https://glowing.com
+- type: Support
+  url: https://support.glowing.com/hc/en-us
+- type: Blog
+  url: https://glowing.com/blog
+- type: Pricing
+  url: https://glowing.com/premium
+- type: PrivacyPolicy
+  url: https://glowing.com/privacy
+- type: TermsOfService
+  url: https://glowing.com/terms-of-service
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
