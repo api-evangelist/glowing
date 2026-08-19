@@ -31,7 +31,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 x-api-program: none
 x-enrichment-note: Consumer women's-health app; no public API, developer portal, docs, or SDKs found (probed 2026-07-19).
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
